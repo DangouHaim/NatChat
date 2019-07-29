@@ -32,6 +32,20 @@ namespace DirectLogWPF.ViewModel
             }
         }
 
+        private int _selectedIndex { get; set; }
+        public int SelectedIndex
+        {
+            get
+            {
+                return _selectedIndex;
+            }
+            set
+            {
+                _selectedIndex = value;
+                OnPropertyChanged("SelectedIndex");
+            }
+        }
+
         private string _currentMessage { get; set; }
         public string CurrentMessage
         {
@@ -138,6 +152,7 @@ namespace DirectLogWPF.ViewModel
                     {
                         Messages.Add(new MessageModel() { Message = v });
                     }
+                    SelectedIndex = Messages.Count - 1;
                 }
             }
         }

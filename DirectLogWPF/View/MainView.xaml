@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
         xmlns:local="clr-namespace:DirectLogWPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
@@ -22,9 +23,13 @@
         <TextBox Text="{Binding Address, Mode=TwoWay}" Grid.Column="1" Margin="10"></TextBox>
         <Button Command="{Binding ConnectCommand}" Grid.Row="0" Margin="15">Connect</Button>
 
-        <ListBox ItemsSource="{Binding Messages}" DisplayMemberPath="Message"></ListBox>
+        <local:ScrollingListBox ItemsSource="{Binding Messages}" SelectedIndex="{Binding SelectedIndex, Mode=TwoWay}" DisplayMemberPath="Message"></local:ScrollingListBox>
 
-        <TextBox Style="{StaticResource MessageBox}" Text="{Binding Path=CurrentMessage, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBox Style="{StaticResource MessageBox}" Text="{Binding Path=CurrentMessage, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+            <TextBox.InputBindings>
+                <KeyBinding Command="{Binding SendCommand}" Key="Enter"></KeyBinding>
+            </TextBox.InputBindings>
+        </TextBox>
         
         <Button Command="{Binding SendCommand}">Send</Button>
     </Grid>

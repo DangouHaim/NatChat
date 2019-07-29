@@ -44,3 +44,8 @@ d:\Work\Projects\VSTO\DirectLogWPF\DirectLogWPF\obj\Debug\DirectLogWPF.exe
 d:\Work\Projects\VSTO\DirectLogWPF\DirectLogWPF\obj\Debug\DirectLogWPF.pdb
 d:\Work\Projects\VSTO\DirectLogWPF\DirectLogWPF\obj\Debug\View\MainView.g.cs
 d:\Work\Projects\VSTO\DirectLogWPF\DirectLogWPF\obj\Debug\View\MainView.baml
+D:\Work\Projects\VSTO\DirectLogWPF\DirectLogWPF\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Work\Projects\VSTO\DirectLogWPF\DirectLogWPF\bin\Debug\System.Windows.Interactivity.dll
+D:\Work\Projects\VSTO\DirectLogWPF\DirectLogWPF\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\Work\Projects\VSTO\DirectLogWPF\DirectLogWPF\bin\Debug\System.Windows.Interactivity.xml
+D:\Work\Projects\VSTO\DirectLogWPF\DirectLogWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
