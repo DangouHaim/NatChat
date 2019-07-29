@@ -1,0 +1,11 @@
+d:\Work\Projects\VSTO\DirectLogWPF\DirectLog\bin\Debug\DirectLog.dll
+d:\Work\Projects\VSTO\DirectLogWPF\DirectLog\bin\Debug\DirectLog.pdb
+d:\Work\Projects\VSTO\DirectLogWPF\DirectLog\bin\Debug\NATServer.exe
+d:\Work\Projects\VSTO\DirectLogWPF\DirectLog\bin\Debug\LumiSoft.Net.dll
+d:\Work\Projects\VSTO\DirectLogWPF\DirectLog\bin\Debug\NATServer.pdb
+d:\Work\Projects\VSTO\DirectLogWPF\DirectLog\bin\Debug\NATServer.exe.config
+d:\Work\Projects\VSTO\DirectLogWPF\DirectLog\obj\Debug\BLL.csprojAssemblyReference.cache
+d:\Work\Projects\VSTO\DirectLogWPF\DirectLog\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+d:\Work\Projects\VSTO\DirectLogWPF\DirectLog\obj\Debug\BLL.csproj.CopyComplete
+d:\Work\Projects\VSTO\DirectLogWPF\DirectLog\obj\Debug\DirectLog.dll
+d:\Work\Projects\VSTO\DirectLogWPF\DirectLog\obj\Debug\DirectLog.pdb

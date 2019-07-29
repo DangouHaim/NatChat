@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "DirectLog\BLL.csproj", "{8E2CC882-DA9A-4932-95F8-BE5D1AF0B498}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4F1CF520-05DC-4657-9AC5-B57B2A8FC7E9} = {4F1CF520-05DC-4657-9AC5-B57B2A8FC7E9}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NATServer", "D:\Work\Projects\VSTO\NATServer\NATServer\NATServer.csproj", "{4F1CF520-05DC-4657-9AC5-B57B2A8FC7E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectLogWPF", "DirectLogWPF\DirectLogWPF.csproj", "{8F7A0A5C-6956-4356-8088-3AA9392F7A96}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8E2CC882-DA9A-4932-95F8-BE5D1AF0B498} = {8E2CC882-DA9A-4932-95F8-BE5D1AF0B498}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E2CC882-DA9A-4932-95F8-BE5D1AF0B498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E2CC882-DA9A-4932-95F8-BE5D1AF0B498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E2CC882-DA9A-4932-95F8-BE5D1AF0B498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E2CC882-DA9A-4932-95F8-BE5D1AF0B498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F1CF520-05DC-4657-9AC5-B57B2A8FC7E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1CF520-05DC-4657-9AC5-B57B2A8FC7E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1CF520-05DC-4657-9AC5-B57B2A8FC7E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1CF520-05DC-4657-9AC5-B57B2A8FC7E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F7A0A5C-6956-4356-8088-3AA9392F7A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F7A0A5C-6956-4356-8088-3AA9392F7A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F7A0A5C-6956-4356-8088-3AA9392F7A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F7A0A5C-6956-4356-8088-3AA9392F7A96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {915F9C5D-F112-4401-885D-18ADE2869BFF}
+	EndGlobalSection
+EndGlobal
