@@ -37,7 +37,7 @@ namespace BLL
                 {
                     var result = await _server.ReceiveAsync();
 
-                    if(result.Buffer.Length > 0)
+                    if(result.Buffer.Length > 1)
                     {
                         if(!_clients.Contains(result.RemoteEndPoint))
                         {
